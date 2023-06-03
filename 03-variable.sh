@@ -24,4 +24,4 @@ echo hey, Today date is ${DATE1}
 
 #Dyanmic time change
 Time=$(time)
-echo hey, Time is $Time
+echo hey, Time is current $Time

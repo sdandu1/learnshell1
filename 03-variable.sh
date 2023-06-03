@@ -22,6 +22,6 @@ echo Today date is $date0
 DATE1=$(date)
 echo hey, Today date is ${DATE1}
 
-#Dyanmic time change
-Time=$(time)
-echo hey, Time is current $Time
+#Aurthematic
+Add=$((2+3))
+echo Add $Add

@@ -12,7 +12,7 @@ Batch=70
 Student=srinivas
 
 echo Trainer name = $Trainer
-echo -e "\e[1;32m ${Batch} \e[0m"
+echo Batch Number -e "\e[1;32m ${Batch} \e[0m"
 echo Student name = ${Student}
 echo -e "\e[1;31m ${Student} \e[0m"
 

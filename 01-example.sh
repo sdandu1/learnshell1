@@ -3,5 +3,7 @@
 
 ls
 pwd
+cat /etc/passwd
+
 
 

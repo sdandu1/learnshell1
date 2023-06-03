@@ -14,6 +14,7 @@ Student=srinivas
 echo Trainer name = $Trainer
 echo Batch number = $Batch
 echo Student name = ${Student}
+echo -e "\e[1;31m ${Student} \e[0m"
 
 
 #Hard coded the date and time

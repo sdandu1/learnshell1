@@ -3,6 +3,8 @@ a=30
 b=20
 echo value a is $a
 echo value b is ${b}
+add=$((a+b))
+echo additon $add
 
 #In the bash shell we access the variable as
 Trainer=Raghu

@@ -11,3 +11,4 @@ echo -e "\e[6 36m This is Clan text\e[0m"
 echo -e "\e[31m This is danger red \e[0m"
 echo -e "\e[32m This is Green color\e[0m"
 echo -e "\e[33m This is Yellow color\e[0m"
+

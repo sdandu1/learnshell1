@@ -11,9 +11,9 @@ Trainer=Raghu
 Batch=70
 Student=srinivas
 
-echo Trainer name $Trainer
-echo Batch number $Batch
-echo Student name ${Student}
+echo Trainer name = $Trainer
+echo Batch number = $Batch
+echo Student name = ${Student}
 
 
 #Hard coded the date and time

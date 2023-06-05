@@ -1,8 +1,13 @@
 #!/bin/bash
 
-var1="hello"
-var2="world"
+counter=1
+count=0
 
-result="${var1} ${var2}"
-echo -e "\e[31m$result\e[0m"
-#changed
+while [ $count -lt 20 ]
+do
+    if [ $((counter % 2)) -ne 0 ]; then
+        echo $counter
+        count=$((count + 1))
+    fi
+    counter=$((counter + 1))
+done

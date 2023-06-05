@@ -23,8 +23,11 @@ echo Today date is $date0
 
 #Dynamic date change
 DATE1=$(date)
+
 echo hey, Today date is ${DATE1}
 
 #Aurthematic
 Add=$((2+3))
 echo Add $Add
+
+#added comment

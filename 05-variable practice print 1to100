@@ -1,0 +1,4 @@
+#!/bin/bash
+
+##variable from commnad line
+echo b = $b

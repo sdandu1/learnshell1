@@ -8,3 +8,4 @@ example()
     exit
   fi
 }
+example

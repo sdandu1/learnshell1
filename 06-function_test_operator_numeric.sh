@@ -1,7 +1,7 @@
 #!/bin/bash
 
-num1=10
-num2=10
+local num1=$1
+local num2=$2
 
 #Test if two number are eqaul
 function1()
@@ -47,9 +47,9 @@ function4() {
 
 #calling functions.
 
-function1
-function2
-function3
-function4
+function1 10 20
+function2 20 30
+function3 30 40
+function4 20 30
 
 

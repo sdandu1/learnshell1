@@ -10,7 +10,7 @@ check_file_exists() {
 
 # Sample function: Check if a file exists
 check_file_exists1() {
-  filename="newfile"
+  filename="01-example.sh"
   if [[ -f $filename ]]; then
     echo "File $filename exists."
   else
@@ -21,4 +21,4 @@ check_file_exists1() {
 #calling function
 check_file_exists 06-sample.script.sh
 check_file_exists 06-function_greet_user.sh
-check_file_exists1 01-example.sh
+check_file_exists1

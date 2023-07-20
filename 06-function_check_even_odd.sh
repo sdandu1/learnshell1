@@ -11,4 +11,4 @@ local num=$1
 }
 
 #calling the function
-check_function 20
+check_function 35

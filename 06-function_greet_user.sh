@@ -31,6 +31,19 @@ sum1() {
   echo "The sum of $num1 and $num2 is $result."
 }
 
+
+
+# Sample function: Check if a file exists
+check_file_exists() {
+  local filename=$1
+  if [[ -f $filename ]]; then
+    echo "File $filename exists."
+  else
+    echo "File $filename does not exist."
+  fi
+}
+
 #calling function
 sum
 sum1 10 20
+check_file_exists

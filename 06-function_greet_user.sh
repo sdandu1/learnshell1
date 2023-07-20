@@ -17,9 +17,9 @@ greet_user
 
 #smaple function sum of two numbers
 sum() {
-  num1=$30
-  num2=$20
-  result=$((num1 + num2))
+  num1=30
+  num2=20
+  result=((num1 + num2))
   echo "The result of $num1 and $num2 is $result"
 }
 

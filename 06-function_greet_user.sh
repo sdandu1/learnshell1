@@ -22,3 +22,6 @@ sum() {
   local result=$((num1+num2))
   echo "The result of $num1 and $num2 is $result"
 }
+
+#calling function
+sum

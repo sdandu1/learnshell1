@@ -19,4 +19,4 @@ print_result() {
   fi
 }
 
-print_result
+print_result 1

@@ -1,16 +1,16 @@
 #!/bin/bash
 
 num1=10
-num2=20
+num2=10
 
 #Test if two number are eqaul
 function1()
 {
 
 if [ "$num1" -eq "$num2"  ]; then
-  echo "These two number are equal"
+  echo "$num1 is equal to $num2"
   else
-  echo "These two number are not equal"
+  echo "$num1 is not equal to $num2"
 fi
 
 }

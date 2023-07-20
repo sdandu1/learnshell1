@@ -36,7 +36,7 @@ fi
 
 #check if the sting is not empty
 string_comp3()
-if [-n "$String3"]; then
+if [ -n "$String3" ]; then
    echo -e "\e[1;31m $String3 is not empty \e[0m"
   else
    echo -e "\e[1;31m $String3 is empty \e[0m"

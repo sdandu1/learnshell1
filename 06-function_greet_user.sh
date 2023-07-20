@@ -13,3 +13,12 @@ echo "$name! your city is $city"
 }
 #calling function
 greet_user
+
+
+#smaple function sum of two numbers
+sum() {
+  local num1=$30
+  local num2=$20
+  local result=$((num1+num2))
+  echo "The result of $num1 and $num2 is $result"
+}

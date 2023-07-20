@@ -20,3 +20,4 @@ check_file_exists1() {
 
 #calling function
 check_file_exists 06-sample.script.sh
+check_file_exists 06-function_greet_user.sh

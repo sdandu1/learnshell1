@@ -46,5 +46,5 @@ check_file_exists() {
 #calling function
 sum
 sum1 10 20
-check_file_exists newfile
+check_file_exists filename
 check_file_exists oldfile

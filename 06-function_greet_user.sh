@@ -19,9 +19,18 @@ greet_user
 sum() {
   local num1=$30
   local num2=$20
-  local result=$((num1+ num2))
+  local result=$((num1 + num2))
   echo "The result of $num1 and $num2 is $result"
+}
+
+# Sample function: Sum of two numbers
+sum1() {
+  local num1=$1
+  local num2=$2
+  local result=$((num1 + num2))
+  echo "The sum of $num1 and $num2 is $result."
 }
 
 #calling function
 sum
+sum1

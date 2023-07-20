@@ -17,9 +17,9 @@ greet_user
 
 #smaple function sum of two numbers
 sum() {
-  local num1=$30
-  local num2=$20
-  local result=$((num1 + num2))
+  num1=$30
+  num2=$20
+  result=$((num1 + num2))
   echo "The result of $num1 and $num2 is $result"
 }
 
@@ -33,4 +33,4 @@ sum1() {
 
 #calling function
 sum
-sum1
+sum1 10 20

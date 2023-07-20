@@ -4,7 +4,8 @@ num1=10
 num2=20
 
 #Test if two number are eqaul
-function1() {
+function1()
+{
 
 if [ "$num1" -eq "$num2"  ]; then
   echo "These two number are equal"

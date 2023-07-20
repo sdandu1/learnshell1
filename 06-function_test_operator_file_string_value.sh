@@ -22,3 +22,15 @@ check_file_exists1() {
 check_file_exists 06-sample.script.sh
 check_file_exists 06-function_greet_user.sh
 check_file_exists1
+
+
+
+#In the sample function check_file_exists,
+#the -f is a test operator used to check if a file exists and is a regular file
+#(not a directory or a special file like a device file). It is used in conjunction with the
+#if statement to evaluate the condition and perform different actions based on whether the file exists
+#or not.
+#Here's a breakdown of the function:
+
+
+

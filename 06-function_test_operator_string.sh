@@ -24,7 +24,7 @@ if ["$String1" != "$String2"]; then
   echo -e "\e[1;31m These two strings are not equal\e[0m"
   else
   echo -e "\e[1;32m These two strings are equal\e[0m"
-if
+fi
 
 #check if the sting is empty
 string_comp2()
@@ -40,7 +40,7 @@ if [-n "$string3"]; then
   echo -e "\e[1;32 The string is not empty\e[0m"
   else
   echo -e "\e[1;31 The string is empty\e[0m"
-if
+fi
 
 
 #calling function

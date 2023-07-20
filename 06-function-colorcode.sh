@@ -9,7 +9,6 @@ NC='\033[0m' # No Color
 num1=10
 num2=5
 
-
 # Function to print colored output
 print_result() {
   if [ "$1" -eq 0 ]; then
@@ -19,4 +18,44 @@ print_result() {
   fi
 }
 
-print_result 1
+# Test if two numbers are equal
+if [ "$num1" -eq "$num2" ]; then
+  print_result 0 "The numbers are equal."
+else
+  print_result 1 "The numbers are not equal."
+fi
+
+# Test if two numbers are not equal
+if [ "$num1" -ne "$num2" ]; then
+  print_result 0 "The numbers are not equal."
+else
+  print_result 1 "The numbers are equal."
+fi
+
+# Test if num1 is greater than num2
+if [ "$num1" -gt "$num2" ]; then
+  print_result 0 "num1 is greater than num2."
+else
+  print_result 1 "num1 is not greater than num2."
+fi
+
+# Test if num1 is greater than or equal to num2
+if [ "$num1" -ge "$num2" ]; then
+  print_result 0 "num1 is greater than or equal to num2."
+else
+  print_result 1 "num1 is less than num2."
+fi
+
+# Test if num1 is less than num2
+if [ "$num1" -lt "$num2" ]; then
+  print_result 0 "num1 is less than num2."
+else
+  print_result 1 "num1 is not less than num2."
+fi
+
+# Test if num1 is less than or equal to num2
+if [ "$num1" -le "$num2" ]; then
+  print_result 0 "num1 is less than or equal to num2."
+else
+  print_result 1 "num1 is greater than num2."
+fi

@@ -23,7 +23,9 @@ example1()
   b=20
 }
 
+example1
 
-example2
-echo example2 return status - $?
+
+
+
 

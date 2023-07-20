@@ -45,8 +45,8 @@ fi
 
 #calling function
 string_comp
-#string_comp1
-#string_comp2
-#string_comp3
+string_comp1
+string_comp2
+string_comp3
 
 

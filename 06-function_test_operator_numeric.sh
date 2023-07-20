@@ -23,6 +23,8 @@ function f2() {
     fi
 }
 
+
+
 # Test if num1 is greater than or equal to num2
 function f3() {
   if [ "$num1" -ge "$num2" ]; then
@@ -42,5 +44,11 @@ function f4() {
 
 }
 
+#calling functions.
+
+function f1
+function f2
+function f3
+function f4
 
 

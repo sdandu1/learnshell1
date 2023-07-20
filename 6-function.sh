@@ -26,3 +26,4 @@ example1()
 
 example2
 echo example2 return status - $?
+

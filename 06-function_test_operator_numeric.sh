@@ -1,9 +1,9 @@
 #!/bin/bash
 
-local num1=$1
-local num2=$2
+num1=10
+num2=20
 
-#Test if two number are eqaul
+Test if two number are eqaul
 function1()
 {
 
@@ -14,7 +14,6 @@ if [ "$num1" -eq "$num2"  ]; then
 fi
 
 }
-
 # Test if num1 is greater than num2
 function2() {
     if [ "$num1" -gt "$num2" ]; then
@@ -47,9 +46,9 @@ function4() {
 
 #calling functions.
 
-function1 10 20
-function2 20 30
-function3 30 40
-function4 20 30
+function1
+function2
+function3
+function4
 
 

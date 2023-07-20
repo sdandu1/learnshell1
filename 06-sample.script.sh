@@ -19,4 +19,4 @@ check_file_exists1() {
 }
 
 #calling function
-check_file_exists
+check_file_exists 06-sample.script.sh

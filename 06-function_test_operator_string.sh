@@ -2,7 +2,7 @@
 
 #Examples in String
 String1="hello"
-String2="world"
+String2="hello"
 String3=""
 
 #Test if two strings are equal

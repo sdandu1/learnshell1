@@ -20,7 +20,7 @@ if ["$string1" = "$string2"]; then
 fi
 
 string_comp1()
-if ["$String1" != "$String2"]; then
+if [ "$String1" != "$String2" ]; then
   echo -e "\e[1;32m 1st string $String1 and 2nd string $String2 are not eqaul \e[0m"
   else
   echo -e "\e[1;31m 1st string $String1 and 2nd string $String2 are eqaul \e[0m"
@@ -28,7 +28,7 @@ fi
 
 #check if the sting is empty
 string_comp2()
-if [-z "$string3" ]; then
+if [ -z "$String3" ]; then
   echo -e "\e[1;31m $String3 is empty \e[0m"
   else
   echo -e "\e[1;32m $String3 is not empty \e[0m"
@@ -36,7 +36,7 @@ fi
 
 #check if the sting is not empty
 string_comp3()
-if [-n "$string3"]; then
+if [-n "$String3"]; then
    echo -e "\e[1;31m $String3 is not empty \e[0m"
   else
    echo -e "\e[1;31m $String3 is empty \e[0m"

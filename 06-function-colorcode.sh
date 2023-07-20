@@ -6,8 +6,8 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 # Example numbers
-num1=10
-num2=5
+num1=7
+num2=4
 
 # Function to print colored output
 print_result() {

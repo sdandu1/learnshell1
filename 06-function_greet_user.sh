@@ -11,3 +11,5 @@ echo "Hello, $name! Welcome to Devops cource"
 echo "$name! Your age is $age"
 echo "$name! your city is $city"
 }
+#calling function
+greet_user

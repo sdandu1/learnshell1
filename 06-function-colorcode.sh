@@ -1,12 +1,14 @@
 #!/bin/bash
 
+# ANSI escape codes for colors
 GREEN='\033[0;32m'
 RED='\033[0;31m'
-NOcolor= '\033[0m'
+NC='\033[0m' # No Color
 
-#sample numbers
-num1=20
-num2=30
+# Example numbers
+num1=10
+num2=5
+
 
 # Function to print colored output
 print_result() {

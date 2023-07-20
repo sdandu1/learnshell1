@@ -8,9 +8,9 @@ String3=""
 #Test if two strings are equal
 string_comp()
 if ["$string1" = "$string2"]; then
-  echo -e "\e[1;31m 1st string $String1 and 2nd string $String2 are eqaul \e[0m"
+  echo -e "\e[1;32m 1st string $String1 and 2nd string $String2 are eqaul \e[0m"
   else
-  echo "1st string $String1 and 2nd string $String2 are not eqaul"
+  echo -e "\e[1;32m 1st string $String1 and 2nd string $String2 are not eqaul \e[0m"
 fi
 
 string_comp
